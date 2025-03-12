@@ -132,7 +132,7 @@ func main() {
 	fmt.Println("Ты можешь выбрать один из трёх путей силы:")
 	fmt.Println("Воитель, Маг, Лекарь")
 
-	charClass := choiseCharClass() // choiceCharClass()
+	charClass := choiseCharClass() // choiceCharClass() on YaPra
 
 	fmt.Println(startTraining(charName, charClass))
 }
